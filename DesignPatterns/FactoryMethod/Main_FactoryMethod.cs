@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
+    //Use the Factory Method when you don't know beforehand the exact
+    //types and dependencies of the objects your code should work with.
+
     public static class Main_FactoryMethod
     {
         private static Logistics? logistics;

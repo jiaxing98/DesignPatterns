@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace FactoryMethod
 {
     /// <summary>
-    /// Abstract and Concrete Creator Class
+    /// Abstract and Concrete Creator Class (The Factory)
     /// </summary>
     public abstract class Logistics
     {
