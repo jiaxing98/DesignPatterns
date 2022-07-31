@@ -3,6 +3,7 @@
 using FactoryMethod;
 using AbstractFactory;
 using Builder;
+using Singleton;
 
 Console.WriteLine("Factory Method");
 Main_FactoryMethod.Init(true, 8);
@@ -16,4 +17,8 @@ Console.WriteLine();
 
 Console.WriteLine("Builder");
 Main_Builder.Init();
+Console.WriteLine();
+
+Console.WriteLine("Singleton");
+Main_Singleton.Init();
 Console.WriteLine();
