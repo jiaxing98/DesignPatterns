@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    /// <summary>
-    /// Product Interface and Concrete Product Class
-    /// </summary>
+    // Product Interface and Concrete Product Class
     public interface ITransport
     {
         string Name { get; set; }

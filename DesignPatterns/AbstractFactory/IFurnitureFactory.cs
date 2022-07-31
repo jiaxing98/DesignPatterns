@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    /// <summary>
-    /// Abstract Factory Interface and Concrete Factory Class
-    /// </summary>
+    // Abstract Factory Interface and Concrete Factory Class
     public interface IFurnitureFactory
     {
         IChair CreateChair();
