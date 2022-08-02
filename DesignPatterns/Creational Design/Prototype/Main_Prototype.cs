@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Prototype
 {
+    //Use the Prototype pattern when your code shouldn’t depend
+    //on the concrete classes of objects that you need to copy.
     public static class Main_Prototype
     {
         public static List<Shape> shapes = new List<Shape>();
