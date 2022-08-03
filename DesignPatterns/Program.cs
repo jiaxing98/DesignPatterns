@@ -8,6 +8,7 @@ using Prototype;
 using Adapter;
 using Bridge;
 using Decorator;
+using Facade;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -43,4 +44,8 @@ Console.WriteLine();
 
 Console.WriteLine("Decorator");
 Main_Decorator.Init();
+Console.WriteLine();
+
+Console.WriteLine("Facade");
+Main_Facade.Init();
 Console.WriteLine();
