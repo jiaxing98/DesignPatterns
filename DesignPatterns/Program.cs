@@ -7,6 +7,7 @@ using Singleton;
 using Prototype;
 using Adapter;
 using Bridge;
+using Decorator;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -38,4 +39,8 @@ Console.WriteLine();
 
 Console.WriteLine("Bridge");
 Main_Bridge.Init();
+Console.WriteLine();
+
+Console.WriteLine("Decorator");
+Main_Decorator.Init();
 Console.WriteLine();
