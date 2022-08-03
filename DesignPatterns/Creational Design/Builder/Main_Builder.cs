@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Builder
 {
-    //Use the Builder pattern when you wanr your code to be able to create
+    //Use the Builder pattern when you want your code to be able to create
     //diferent representations of some product (for example,
     //stone and wooden house)
+
     public static class Main_Builder
     {
         private static Director? _director;

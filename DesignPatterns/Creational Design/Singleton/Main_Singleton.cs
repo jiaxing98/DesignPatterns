@@ -9,6 +9,7 @@ namespace Singleton
     //Use the Singleton pattern when a class in your
     //program should have just a single instance
     //available to all clients.
+
     public static class Main_Singleton
     {
         private static Database _databaseA;

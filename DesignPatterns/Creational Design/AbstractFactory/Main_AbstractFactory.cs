@@ -10,6 +10,7 @@ namespace AbstractFactory
     //families of related products, but your don't want it to depend on the
     //concrete classes of those products - they might be unknown beforehand
     //or you simply want to allow for future extensibility
+
     public static class Main_AbstractFactory
     {
         private static IFurnitureFactory? _furnitureFactory;
