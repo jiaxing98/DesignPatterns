@@ -19,7 +19,7 @@ namespace ChainOfResponsibility
         public string toolTipText;
         // The component's container acts as the next link in the
         // chain of handlers.
-        public Container container;
+        public Container? container;
 
         // The component shows a tooltip if there's help text
         // assigned to it. Otherwise it forwards the call to the
@@ -30,7 +30,9 @@ namespace ChainOfResponsibility
                 //Show toolTip
                 Console.WriteLine($"Showing ToolTip from Component abstract base class...");
             else
-                container.ShowHelp();
+            {
+                container?.ShowHelp();
+            }
         }
     }
 

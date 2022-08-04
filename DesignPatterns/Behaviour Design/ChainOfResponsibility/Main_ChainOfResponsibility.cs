@@ -32,7 +32,7 @@ namespace ChainOfResponsibility
             //ok.toolTipText = "This is a OK button";
 
             var cancel = new Button();
-            //cancel.toolTipText = "This is a CANCEL button";
+            cancel.toolTipText = "This is a CANCEL button";
 
             panel.Add(ok);
             panel.Add(cancel);
