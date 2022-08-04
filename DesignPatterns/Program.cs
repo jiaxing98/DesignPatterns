@@ -11,6 +11,7 @@ using Decorator;
 using Facade;
 using Flyweight;
 using Proxy;
+using ChainOfResponsibility;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -36,26 +37,32 @@ using Proxy;
 //Console.WriteLine();
 #endregion
 
-Console.WriteLine("Adapter");
-Main_Adapter.Init();
-Console.WriteLine();
+#region Structural Design
+//Console.WriteLine("Adapter");
+//Main_Adapter.Init();
+//Console.WriteLine();
 
-Console.WriteLine("Bridge");
-Main_Bridge.Init();
-Console.WriteLine();
+//Console.WriteLine("Bridge");
+//Main_Bridge.Init();
+//Console.WriteLine();
 
-Console.WriteLine("Decorator");
-Main_Decorator.Init();
-Console.WriteLine();
+//Console.WriteLine("Decorator");
+//Main_Decorator.Init();
+//Console.WriteLine();
 
-Console.WriteLine("Facade");
-Main_Facade.Init();
-Console.WriteLine();
+//Console.WriteLine("Facade");
+//Main_Facade.Init();
+//Console.WriteLine();
 
-Console.WriteLine("Flyweight");
-Main_Flyweight.Init();
-Console.WriteLine();
+//Console.WriteLine("Flyweight");
+//Main_Flyweight.Init();
+//Console.WriteLine();
 
-Console.WriteLine("Proxy");
-Main_Proxy.Init();
+//Console.WriteLine("Proxy");
+//Main_Proxy.Init();
+//Console.WriteLine();
+#endregion
+
+Console.WriteLine("Chain Of Responsibility");
+Main_ChainOfResponsibility.Init();
 Console.WriteLine();
