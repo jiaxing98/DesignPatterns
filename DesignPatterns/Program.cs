@@ -13,6 +13,7 @@ using Flyweight;
 using Proxy;
 using ChainOfResponsibility;
 using Command;
+using Iterator;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -70,4 +71,8 @@ Console.WriteLine();
 
 Console.WriteLine("Command");
 Main_Command.Init();
+Console.WriteLine();
+
+Console.WriteLine("Iterator");
+Main_Iterator.Init();
 Console.WriteLine();
