@@ -12,6 +12,7 @@ using Facade;
 using Flyweight;
 using Proxy;
 using ChainOfResponsibility;
+using Command;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -65,4 +66,8 @@ using ChainOfResponsibility;
 
 Console.WriteLine("Chain Of Responsibility");
 Main_ChainOfResponsibility.Init();
+Console.WriteLine();
+
+Console.WriteLine("Command");
+Main_Command.Init();
 Console.WriteLine();
