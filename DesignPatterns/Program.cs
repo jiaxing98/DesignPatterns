@@ -10,6 +10,7 @@ using Bridge;
 using Decorator;
 using Facade;
 using Flyweight;
+using Proxy;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -49,7 +50,12 @@ Console.WriteLine();
 
 Console.WriteLine("Facade");
 Main_Facade.Init();
+Console.WriteLine();
 
 Console.WriteLine("Flyweight");
 Main_Flyweight.Init();
+Console.WriteLine();
+
+Console.WriteLine("Proxy");
+Main_Proxy.Init();
 Console.WriteLine();
