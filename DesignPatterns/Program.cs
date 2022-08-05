@@ -14,6 +14,7 @@ using Proxy;
 using ChainOfResponsibility;
 using Command;
 using Iterator;
+using Mediator;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -75,4 +76,8 @@ Console.WriteLine();
 
 Console.WriteLine("Iterator");
 Main_Iterator.Init();
+Console.WriteLine();
+
+Console.WriteLine("Mediator");
+Main_Mediator.Init();
 Console.WriteLine();
