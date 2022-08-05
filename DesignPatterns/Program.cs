@@ -15,6 +15,7 @@ using ChainOfResponsibility;
 using Command;
 using Iterator;
 using Mediator;
+using Memento;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -80,4 +81,8 @@ Console.WriteLine();
 
 Console.WriteLine("Mediator");
 Main_Mediator.Init();
+Console.WriteLine();
+
+Console.WriteLine("Memento");
+Main_Memento.Init();
 Console.WriteLine();
