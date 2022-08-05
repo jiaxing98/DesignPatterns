@@ -17,6 +17,7 @@ using Iterator;
 using Mediator;
 using Memento;
 using Observer;
+using State;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -90,4 +91,8 @@ Console.WriteLine();
 
 Console.WriteLine("Observer");
 Main_Observer.Init();
+Console.WriteLine();
+
+Console.WriteLine("State");
+Main_State.Init();
 Console.WriteLine();
