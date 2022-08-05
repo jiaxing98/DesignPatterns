@@ -20,6 +20,7 @@ using Observer;
 using State;
 using Strategy;
 using TemplateMethod;
+using Visitor;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -105,4 +106,8 @@ Console.WriteLine();
 
 Console.WriteLine("TemplateMethod");
 Main_TemplateMethod.Init();
+Console.WriteLine();
+
+Console.WriteLine("Visitor");
+Main_Visitor.Init();
 Console.WriteLine();
