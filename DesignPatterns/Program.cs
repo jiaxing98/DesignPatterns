@@ -19,6 +19,7 @@ using Memento;
 using Observer;
 using State;
 using Strategy;
+using TemplateMethod;
 
 #region Creational Design
 //Console.WriteLine("Factory Method");
@@ -100,4 +101,8 @@ Console.WriteLine();
 
 Console.WriteLine("Strategy");
 Main_Strategy.Init();
+Console.WriteLine();
+
+Console.WriteLine("TemplateMethod");
+Main_TemplateMethod.Init();
 Console.WriteLine();
